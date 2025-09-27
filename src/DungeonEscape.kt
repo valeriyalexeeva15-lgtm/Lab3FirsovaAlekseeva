@@ -53,7 +53,13 @@ fun main(){
 //    for (fruit in fruits) {
 //        println("Фрукт: $fruit")
 //    }
-    val sentence = "Kotlin is awesome"
-    val words =sentence.split("")
-    println(words)
+//    val sentence = "Kotlin is awesome"
+//    val words =sentence.split("")
+//    println(words)
+    val data = "apple, banana, orange"
+    val fruits = data.split(",")
+    for (fruit in fruits)
+    {
+        println(fruit)
+    }
 }
