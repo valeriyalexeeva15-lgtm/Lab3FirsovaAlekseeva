@@ -28,10 +28,11 @@ fun main(){
 //            }
 //        }
 //    }
-    val dice1=Random.nextInt(from = 1, until = 7)
-    val dice2=Random.nextInt(from = 1, until = 7)
-    val sum = dice1+dice2
-    println("Первый кубик: $dice1")
-    println("Второй кубик: $dice2")
-    println("Сумма: $sum")
+//    val dice1=Random.nextInt(from = 1, until = 7)
+//    val dice2=Random.nextInt(from = 1, until = 7)
+//    val sum = dice1+dice2
+//    println("Первый кубик: $dice1")
+//    println("Второй кубик: $dice2")
+//    println("Сумма: $sum")
+    
 }
