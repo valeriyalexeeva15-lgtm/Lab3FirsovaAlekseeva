@@ -4,14 +4,14 @@ fun main(){
 //        println("Число: $number")
 //        number++
 // }
-//    var number = 1
-//    while (number <= 10) {
-//        println(number)
-//        number++
-//        if (number == 5) {
-//            println("Останавливаемся на $number")
-//            break
-//        }
-//    }
+    var number = 0
+   while (number < 10) {
+       number++
+       if (number == 3) {
+           println("Останавливаемся на $number")
+            continue
+        }
+       println(number)
+    }
 
 }
