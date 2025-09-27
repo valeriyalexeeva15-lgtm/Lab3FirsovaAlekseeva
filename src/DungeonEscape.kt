@@ -32,4 +32,11 @@ fun main(){
 //        number = readln().toInt()
 //    } while (number <= 10)
 //    println("Спасибо! Вы ввели $number.")
+    print("Введите пароль: ")
+    var password: String? = readln()
+    while (password != "qwerty") {
+        print("Введите пароль: ")
+        password =readln()
+    }
+    println("Доступ разрешён!")
 }
