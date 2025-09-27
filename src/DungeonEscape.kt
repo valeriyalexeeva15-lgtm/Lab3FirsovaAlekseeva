@@ -62,12 +62,13 @@ fun main(){
 //    {
 //        println(fruit)
 //    }
-    print("Введите числа через пробел: ")
-    val input = readln()
-    val numbers = input.split(" ")
-    var sum = 0
-    for (number in numbers) {
-        sum += number.toInt()
-    }
-    println("Сумма чисел: $sum")
+//    print("Введите числа через пробел: ")
+//    val input = readln()
+//    val numbers = input.split(" ")
+//    var sum = 0
+//    for (number in numbers) {
+//        sum += number.toInt()
+//    }
+//    println("Сумма чисел: $sum")
+
 }
