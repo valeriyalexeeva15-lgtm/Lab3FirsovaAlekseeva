@@ -1,4 +1,7 @@
 fun main(){
-    val number=1
-    while
+    var number=1
+    while (number<=5){
+        println("Число: $number")
+        number++
+    }
 }
