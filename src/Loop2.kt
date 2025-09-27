@@ -22,9 +22,10 @@ fun main(){
 //        }
 //        println("Вы ввели: $input")
 //    }
-    var letter = 'A'
-    while (letter <= 'Z') {
-        print(letter)
-        letter++
-    }
+//    var letter = 'A'
+//    while (letter <= 'Z') {
+//        print(letter)
+//        letter++
+//    }
+    
 }
