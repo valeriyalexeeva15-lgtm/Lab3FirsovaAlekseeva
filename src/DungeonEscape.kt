@@ -39,10 +39,18 @@ fun main(){
 //        password =readln()
 //    }
 //    println("Доступ разрешён!")
-    var password: String?
-    do {
-        print("Введите пароль: ")
-        password = readln()
-    } while (password != "qwerty")
-    println("Доступ разрешён!")
+//    var password: String?
+//    do {
+//        print("Введите пароль: ")
+//        password = readln()
+//    } while (password != "qwerty")
+//    println("Доступ разрешён!")
+
+    for (i in 1..5) {
+        println("War $i")
+    }
+    val fruits = listOf("apple", "banana", "cherry")
+    for (fruit in fruits) {
+        println("Фрукт: $fruit")
+    }
 }
