@@ -46,11 +46,14 @@ fun main(){
 //    } while (password != "qwerty")
 //    println("Доступ разрешён!")
 
-    for (i in 1..5) {
-        println("War $i")
-    }
-    val fruits = listOf("apple", "banana", "cherry")
-    for (fruit in fruits) {
-        println("Фрукт: $fruit")
-    }
+//    for (i in 1..5) {
+//        println("War $i")
+//    }
+//    val fruits = listOf("apple", "banana", "cherry")
+//    for (fruit in fruits) {
+//        println("Фрукт: $fruit")
+//    }
+    val sentence = "Kotlin is awesome"
+    val words =sentence.split("")
+    println(words)
 }
